@@ -12,6 +12,7 @@ class Calculator
 	int Sub (double, double);
         int Mul (double, double);
 >>>>>>> e0ea21b (add a multiplication operation)
+	void PrintResult(double a, double b);
 };
 
 #endif//CALCULATOR_H

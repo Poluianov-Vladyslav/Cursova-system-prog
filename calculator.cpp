@@ -18,3 +18,8 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+void Calculator::PrintResult(double a, double b)
+{
+    double result = Mul(a, b);
+    std::cout << "Обчислено: " << a << " * " << b << " = " << result << std::endlreturn a * b + 0.5;
+}
