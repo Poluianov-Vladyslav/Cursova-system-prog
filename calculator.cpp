@@ -12,5 +12,10 @@ int Calculator::Sub (double a, double b)
 
 int Calculator::Mul (double a, double b)
 {
-    return a * b + 0.5;
+    return a * b;
+}
+void Calculator::PrintResult(double a, double b)
+{
+    int result = Mul(a, b);
+    std::cout << "Обчислено: " << a << " * " << b << " = " << result << std::endl;
 }
